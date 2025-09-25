@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cita: Música a Ciegas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h2 class="section-title" style="margin-top:16px">¡Vamos a música a ciegas!<br>Elegí la función:</h2>
+
+        <section class="grid">
+    <!-- Depeche -->
+    <article class="card" data-titulo="Depeche Mode — Violator" data-fecha="Jueves 25/09 — 21:00 hs">
+        <img class="thumb" src="depeche.jpg" alt="Depeche Mode - Violator" />
+        <div class="card-body">
+        <div class="label">Depeche Mode</div>
+        <h3 class="title">Depeche Mode — Violator</h3>
+        <p class="meta">Jueves 25/09 — 21:00 hs · Casa Astral, Córdoba</p>
+        </div>
+    </article>
+
+    <!-- Radiohead -->
+    <article class="card" data-titulo="Radiohead — In Rainbows" data-fecha="Jueves 02/10 — 23:30 hs">
+        <img class="thumb" src="radiohead.jpg" alt="Radiohead - In Rainbows" />
+        <div class="card-body">
+        <div class="label">Radiohead</div>
+        <h3 class="title">Radiohead — In Rainbows</h3>
+        <p class="meta">Jueves 02/10 — 23:30 hs · Casa Astral, Córdoba</p>
+        </div>
+    </article>
+
+    <!-- Beatles -->
+    <article class="card" data-titulo="The Beatles — Revolver" data-fecha="Viernes 03/10 — 21:30 hs">
+        <img class="thumb" src="beatles.jpeg" alt="The Beatles - Revolver" />
+        <div class="card-body">
+        <div class="label">The Beatles</div>
+        <h3 class="title">The Beatles — Revolver</h3>
+        <p class="meta">Viernes 03/10 — 21:30 hs · Casa Astral, Córdoba</p>
+        </div>
+    </article>
+
+    <!-- Queen -->
+    <article class="card" data-titulo="Queen — Greatest Hits I" data-fecha="Sábado 04/10 — 19:30 hs">
+        <img class="thumb" src="queen.jpg" alt="Queen - Greatest Hits 1" />
+        <div class="card-body">
+        <div class="label">Queen</div>
+        <h3 class="title">Queen — Greatest Hits I</h3>
+        <p class="meta">Sábado 04/10 — 19:30 hs · Casa Astral, Córdoba</p>
+        </div>
+    </article>
+    </section>
+
+  </main>
+
+  <!-- Modal -->
+  <dialog id="dialog">
+    <h3 id="dlg-title"></h3>
+    <p id="dlg-meta"></p>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" id="dlg-cancel">Cancelar</button>
+      <a class="btn" id="dlg-ok" href="#" target="_blank" rel="noopener">Confirmar</a>
+    </div>
+  </dialog>
+
+  <script src="mc.js"></script>
+
+</body>
+</html>
+
